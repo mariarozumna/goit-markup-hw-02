@@ -1,0 +1,60 @@
+:root {
+--c-primary:#2E2F42;
+--c-text:#434455;
+--c-primary-brand:#4D5AE5;
+--c-background:#FFF;
+--c-pressed-state:#404BBF;
+--c-text-light:#F4F4FD;
+
+}
+.logo {
+    color:var(--c-primary);
+   }
+   .address-link {
+    color: var(--c-text);
+   }
+.nav-link {
+    color: var(--c-primary);
+ }
+.nav-link:active {
+    color:var(--c-primary-brand);
+}
+.hero-section {
+    background-color: var(--c-primary);
+}
+.hero-title {
+    color: var(--c-background);
+}
+.hero-button {
+    color: var(--color-background);
+    background-color: var(--c-primary-brand); 
+    cursor: pointer;
+}
+.hero-button:hover {
+    color: var(--color-background);
+    background-color: var(--c-pressed-state);
+}
+.feature-title {
+    color: var(--c-primary);
+}
+.feaure-text {
+    stop-color: var(--c-text);
+}
+.team-section {
+    color: var(--c-primary)
+}
+.team-title {
+    color: var(--c-primary)
+}
+.team-text {
+    color: var(--c-text)
+}
+.portfolio-section{
+    color: var(--c-primary);
+}
+.portfolio-title {
+    color: var(--c-primary);
+}
+.portfolio-text {
+    color: var(--c-text);
+}
