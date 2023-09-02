@@ -8,8 +8,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--c-primary);   
+   font-family: 'Roboto', sans-serif;
+   color: var(--c-primary); 
 }
 a {
     text-decoration: none;
@@ -33,7 +33,7 @@ button {
     overflow: hidden;
 }
 .logo {
-    color:var(--c-primary);
+    color: var(--c-primary);
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
