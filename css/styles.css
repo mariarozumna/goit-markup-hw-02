@@ -20,9 +20,6 @@ ul {
 button {
     font-family: inherit;
 }
-.list {
-    background-color: var(--c-background);
-}
 .logo {
     color: var(--c-primary-brand);
     font-family:"Raleway", sans-serif;
@@ -97,6 +94,9 @@ button {
 .feature-section {
     background-color: var(--c-text-light);
 }
+.list {
+    background-color: var(--c-background);
+}
 .list-title {
     color: var(--c-primary);
     font-size: 20px;
@@ -112,6 +112,9 @@ button {
 }
 .team-section {
     background-color: var(--c-text-light);
+}
+.team-list {
+    background-color: var(--c-background);
 }
 .team-header {
     color: var(--c-primary);
