@@ -103,17 +103,20 @@ button {
 .hero-button:focus {
     background-color: var(--c-pressed-state);
 }
-.feature-list {
+.feature {
+    background-color: var(--c-text-light);
+}
+.list {
     background-color: var(--c-background);
 }
-.feature-title {
+.list-title {
     color: var(--c-primary);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;   
 }
-.feature-text {
+.list-text {
     color: var(--c-text);
     font-size: 16px;
     line-height: 1.5;
