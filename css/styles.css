@@ -103,7 +103,7 @@ button {
 .hero-button:focus {
     background-color: var(--c-pressed-state);
 }
-.feature-list {
+.list {
     background-color: var(--c-background);
 }
 .feature-title {
