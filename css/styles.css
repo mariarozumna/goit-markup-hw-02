@@ -113,7 +113,7 @@ button {
 .team-section {
     background-color: var(--c-text-light);
 }
-.team-list {
+.team-member {
     background-color: var(--c-background);
 }
 .team-header {
