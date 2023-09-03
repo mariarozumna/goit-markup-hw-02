@@ -51,7 +51,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.address-link:active{
+.address-link:active {
     color: var(--c-primary-brand);
 }
 .address-link:hover {
@@ -145,7 +145,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.portfolio-header{
+.portfolio-header {
     color: var(--c-primary);
     font-size: 36px;
     line-height: 1.11;
