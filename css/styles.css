@@ -81,7 +81,6 @@ button {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 .hero-button {
     color: var(--c-background);
@@ -97,7 +96,7 @@ button {
     background-color: var(--c-pressed-state);
 }
 .hero-button:focus {
-    color: var(--c-pressed-state);
+    background-color: var(--c-pressed-state);
 }
 .feature-title {
     color: var(--c-primary);
@@ -106,19 +105,21 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.feaure-text {
+.feature-text {
     color: var(--c-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .team-section {
+    background-color: var(--c-text-light);
+}
+.team-header {
     color: var(--c-primary);
     background-color: var(--c-text-light);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
 }
 .team-title {
@@ -128,21 +129,18 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
 }
 .team-text {
     color: var(--c-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
 }
-.portfolio-section{
+.portfolio-header{
     color: var(--c-primary);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     text-transform: capitalize;
 }
 .portfolio-title {
@@ -163,12 +161,12 @@ button {
 }
 .logo-footer {
     color: var(--c-primary-brand);
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .logo-footer-accent {
     color: var(--c-text-light);
