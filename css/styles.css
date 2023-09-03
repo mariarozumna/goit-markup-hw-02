@@ -94,7 +94,7 @@ button {
 .feature-section {
     background-color: var(--c-text-light);
 }
-.feature-list {
+.list {
     background-color: var(--c-background);
 }
 .list-title {
